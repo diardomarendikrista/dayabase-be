@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 const port = 4000;
 
-const router = require("./routes"); // <-- Cukup panggil foldernya
+const router = require("./routes");
 
 app.use(cors());
 app.use(express.json());
